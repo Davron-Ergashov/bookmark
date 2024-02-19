@@ -1,0 +1,80 @@
+.features_block{
+    margin-top: 140px;
+    text-align: center;
+}
+.features_title{
+    color: rgb(36, 42, 69);
+font-size: 24px;
+font-weight: 500;
+line-height: 52px;
+letter-spacing: -0.08px;
+}
+.features_text{
+    @include main_text;
+    margin-bottom: 40px;
+}
+.features_btn{
+    display: flex;
+    flex-direction: column;
+}
+.features_btn1{
+    color: rgb(36, 42, 69);
+font-size: 16px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.53px;
+border-top: 1px solid rgba(73, 93, 207, 0.2) ;
+border-bottom: 1px solid rgba(73, 93, 207, 0.2);
+padding: 20px;
+position: relative;
+max-width: 340px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+.features_btn1::after{
+    content: "";
+    position: absolute;
+    background-color: #fa5959;
+    top: 95%;
+    right: 30%;
+    height: 3px;
+    width: 139px;
+}
+.features_btn2{
+    color: rgb(36, 42, 69);
+font-size: 16px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.53px;
+border-bottom: 1px solid rgba(73, 93, 207, 0.2);
+padding: 20px;
+}
+.features_btn3{
+    color: rgb(36, 42, 69);
+font-size: 16px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0.53px;
+border-bottom: 1px solid rgba(73, 93, 207, 0.2);
+padding: 20px;
+}
+
+@media screen and (min-width:792px) {
+    .features_text{
+        max-width: 540px;
+        display: inline-block;
+        text-align: center;
+    }
+    .features_btn{
+ display: flex;
+display: block;
+margin-bottom: 72px;
+    }
+    .features_btn1{
+        border-top: none;
+    }
+    .features_btn1::after{
+        right: 16%;
+    }
+}

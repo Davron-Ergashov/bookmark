@@ -1,0 +1,127 @@
+.footer{
+    margin-top: 100px;
+    padding-top: 60px;
+    background-color: #5267df;
+}
+
+.footer_content__block{
+margin-right: auto;
+margin-left: auto;
+}
+
+.footer_content{
+    display: block;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+    max-width: 408px;
+}
+.footer_text{
+    color: rgb(255, 255, 255);
+font-size: 13px;
+font-weight: 500;
+line-height: 40px;
+}
+
+.footer_title{
+    color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: -0.08px;
+margin-bottom: 32px;
+}
+
+.footer_btn__block{
+    text-align: center;
+}
+
+.footer_input{
+    color: rgba(36, 42, 69, 0.25);
+font-size: 14px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.25px;
+border-radius: 5px;
+background-color: rgb(255, 255, 255);
+padding: 10px 124px 10px 20px;
+border: none;
+}
+
+.footer_btn{
+    color: rgb(255, 255, 255);
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.25px;
+border-radius: 5px;
+box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+background-color: rgb(250, 89, 89);
+padding: 10px 121px;
+display: inline-block;
+margin-top: 16px;
+margin-bottom: 60px;
+}
+
+.footer_end{
+    background-color: rgb(36, 42, 69);
+    padding-top: 40px;
+    padding-bottom: 49px;
+}
+
+.footer_end__block{
+    text-align: center;
+}
+
+.footer_box_block{
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footer_box__btn{
+    color: rgb(255, 255, 255);
+font-size: 15px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 1.73px;
+}
+
+.footer_icon2{
+    margin-top: 48px;
+}
+
+@media screen and (min-width:792px) {
+    .footer_btn__block{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 74px;
+    }
+    .footer_btn{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 10px 24px;
+        margin-left: 16px;
+    }
+    .footer_end__block{
+        display: flex;
+        align-items: center;
+justify-content: space-between;
+    }
+    .footer_icon2 {
+        margin-top: 0;
+    }
+    .footer_box_block{
+        display: flex;
+        flex-direction:row;
+    }
+    .footer_box_block {
+        margin-top: 0;
+        margin-left: -140px;
+    }
+    .footer_end {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}

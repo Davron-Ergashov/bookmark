@@ -1,0 +1,43 @@
+.click_img{
+    text-align: center;
+    margin-top: 72px;
+    padding-bottom: 37px;
+    background-repeat: no-repeat;
+    background-image: url('/img/click_back.svg');
+    background-position: 115% bottom;
+}
+.click_title{
+    color: rgb(36, 42, 69);
+font-size: 24px;
+font-weight: 500;
+line-height: 52px;
+letter-spacing: -0.08px;
+margin-top: 32px;
+}
+.click_text{
+    @include main_text;
+}
+.click_main{
+    text-align: center;
+}
+.click_btn{
+    @include main_btn;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:792px) {
+    .click_block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .click_main{
+        max-width: 445px;
+        text-align: start;
+        margin-left: 30px;
+    }
+    .click_img{
+        background-position: 226% bottom;
+    }
+}

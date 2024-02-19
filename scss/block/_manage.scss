@@ -1,0 +1,70 @@
+.manager:first-child{
+    margin-top: 81px;
+    background-repeat: no-repeat;
+    background-image: url('/img/manage_back.png');
+    background-position: right  15%;
+}
+.manager_img{
+text-align: center; 
+   padding-bottom: 30px;
+   
+}
+.manager_title{
+    color: rgb(36, 42, 69);
+font-size: 30px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: -0.09px;
+margin-top: 48px;
+}
+.manager_main{
+    text-align: center
+}
+.manager_text{
+    @include main_text;
+    margin-top: 16px;
+    margin-bottom: 32px
+}
+.manager_btn{
+    @include main_btn;
+    margin-right: 14px;
+}
+.manager_btn2{
+    color: #595D72;
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.25px;
+border-radius: 5px;
+box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+background-color: rgb(247, 247, 247);
+padding: 10px 17px;
+}
+
+@media screen and (min-width:972px) {
+    .manager_block{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .manager_main{
+        text-align: start;
+        max-width: 540px;
+    }
+    .manager_img{
+        align-items: end;
+    }
+    .manager:first-child{
+        background-image: none;
+
+    }
+    .manager:last-child{
+        background-repeat: no-repeat;
+        background-image: url('/img/manage_back2.svg');
+        background-position: 587% bottom ;
+    }
+    .manager_img{
+        text-align: end;
+        padding-bottom: 80px;
+    }
+}
